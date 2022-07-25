@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400;700&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-width: 475px;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+}
+
+/*Header css*/
+
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    font-weight: bold;
+    flex-wrap: wrap;
+}
+
+.header .header-logo-text{
+    font-size: 45px;
+    color: #F9FAF8;
+    margin: 20px 30px;
+}
+
+ul{
+    display: flex;
+    padding-left: 0;
+    gap: 20px;
+    margin: 20px 30px;
+    max-width: 100%;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+/*Hero Background*/
+
+.hero-background{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+}
+
+/*Hero css*/
+
+.hero{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    margin: 100px;
+    width: 100%;
+}
+
+.hero-left{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    width: 450px;
+    padding: 15px;
+}
+
+.header-hero img{
+    width: 200px;
+    box-shadow: 0 5px 40px 15px;
+}
+
+.header-hero{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.header-content{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sign-up{
+    background-color: #3882f6;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 20px;
+    border: none;
+}
+
+.hero-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.hero-right img{
+    width: 450px;
+    max-width: 100%;
+}
+
+.information-background{
+    margin: 30px;
+}
+
+.header-information{
+    font-size: 40px;
+    font-weight: bold;
+    color: #1f2937;
+    margin: 30px;
+}
+
+/*Information CSS*/
+.content-info{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    
+}
+
+.info-img{
+    width: 300px;
+    height: 300px;
+    border: 5px solid #3882f6;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.info-img img{
+    width: 300px;
+}
+
+.vincent #vincent{
+    height: 300px;
+}
+
+.Jhay,
+.Toph,
+.vincent{
+    width: 300px;
+    height: 300px;
+    border: 5px solid #3882f6;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.Jhay #Jhay{
+    height: 300px;
+}
+
+.Toph #Toph{
+    height: 300px;
+}
+
+.info-subtext{
+    width: 300px;
+}
+
+span{
+    font-family: "Markazi Text", serif;
+    font-size: 50px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+p{
+    font-size: 18px;
+}
+
+
+*{
+    border: px solid red;
+}
