@@ -177,6 +177,8 @@ a{
 
 .Toph #Toph{
     height: 300px;
+    width: 300px;
+    border-radius: 25px;
 }
 
 .info-subtext{
